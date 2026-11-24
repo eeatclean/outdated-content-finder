@@ -4,7 +4,7 @@
 
 A broken link checker won't catch a wrong version number. The page loads, the link works, and the article still tells readers to install version 2 of a tool that is now on version 5. This small command line tool reads every page listed in your sitemap. Then it ranks the pages by how many time-sensitive claims they contain, so you know which articles to check first.
 
-It runs on Python 3.8 or newer and has no dependencies. It makes no AI calls, so it costs nothing to run.
+It runs on Python 3.9 or newer and has no dependencies. It makes no AI calls, so it costs nothing to run.
 
 ```text
 $ outdated-content-finder https://example.com --include /blog/ --markdown report.md

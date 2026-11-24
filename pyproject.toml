@@ -9,7 +9,7 @@ description = "Find the blog articles most likely to contain outdated facts, sta
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Ahmed EL JAOUARI" }]
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 dependencies = []
 keywords = ["seo", "content audit", "outdated content", "content refresh", "sitemap", "fact checking"]
 classifiers = [
