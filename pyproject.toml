@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "outdated-content-finder"
+version = "0.1.0"
+description = "Find the blog articles most likely to contain outdated facts, starting from the sitemap."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Ahmed EL JAOUARI" }]
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["seo", "content audit", "outdated content", "content refresh", "sitemap", "fact checking"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+  "Topic :: Internet :: WWW/HTTP :: Site Management",
+]
+
+[project.scripts]
+outdated-content-finder = "outdated_content_finder.cli:main"
+
+[tool.setuptools]
+packages = ["outdated_content_finder"]
+
+[project.urls]
+Homepage = "https://eeatclean.com"
+Source = "https://github.com/eeatclean/outdated-content-finder"
+Issues = "https://github.com/eeatclean/outdated-content-finder/issues"
